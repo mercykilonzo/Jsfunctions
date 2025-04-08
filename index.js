@@ -30,6 +30,16 @@ positiveNeg([-2, 5, 0, 0, 5, 12, 10])
 
 // 3. 
 
+function sortdetails(employees){
+    employees= [
+        {id:10,Name:"Joy",salary: 7000},
+        {id:12,Name:"mercy",salary:3000},
+        {id:11,Name:"jackie",salary:6000},
+        {id:13,Name:"peter",salary:4000}]
+        return employees.sort((a,b) => (a.salary-b.salary))
+}
+console.log(sortdetails())
+
 
 
 // 4.Write a function that accepts an array of numbers and uses the forEach() method to console.log each number multiplied by 2.
